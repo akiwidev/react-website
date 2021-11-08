@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" exact element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
       </Routes>
     </Router>
   );
