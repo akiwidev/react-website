@@ -11,7 +11,19 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src='images/img-9.jpg'
-              text="Explore the hidden waterfall deep inside the Amazon jungle."
+              text="Explore hidden waterfalls deep inside the Amazon jungle."
+              label='Adventure'
+              path='/travel-packages'
+            />
+            <CardItem
+              src='images/img-2.jpg'
+              text="Cruise the islands of Vanuatu on a private sailboat."
+              label='Luxury'
+              path='/travel-packages'
+            />
+            <CardItem
+              src='images/img-8.jpg'
+              text="Get lost in the desert with a sub-saharan nomadic tribe."
               label='Adventure'
               path='/travel-packages'
             />

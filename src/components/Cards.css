@@ -56,6 +56,8 @@ h1 {
   animation-duration: 2s;
 }
 
+/* The css directly below looks after the 'Adventure' tag found on the card*/
+
 .cards__item__pic-wrap::after {
   content: attr(data-category);
   position: absolute;
