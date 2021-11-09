@@ -16,19 +16,19 @@ function Cards() {
               src={waterfall}
               text="Explore hidden waterfalls deep inside the Amazon jungle."
               label='Adventure'
-              path='/products'
+              path='/services'
             />
             <CardItem
               src={cruise}
               text="Cruise the islands of Vanuatu on a private sailboat."
               label='Luxury'
-              path='/products'
+              path='/services'
             />
             <CardItem
               src={desert}
               text="Get lost in the desert with a sub-saharan nomadic tribe."
               label='Adventure'
-              path='/products'
+              path='/services'
             />
           </ul>
         </div>
