@@ -1,6 +1,9 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+import waterfall from '../images/img-9.jpg'
+import cruise from '../images/img-2.jpg'
+import desert from '../images/img-8.jpg'
 
 function Cards() {
   return (
@@ -10,22 +13,22 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src='images/img-9.jpg'
+              src={waterfall}
               text="Explore hidden waterfalls deep inside the Amazon jungle."
               label='Adventure'
-              path='/travel-packages'
+              path='/products'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src={cruise}
               text="Cruise the islands of Vanuatu on a private sailboat."
               label='Luxury'
-              path='/travel-packages'
+              path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src={desert}
               text="Get lost in the desert with a sub-saharan nomadic tribe."
               label='Adventure'
-              path='/travel-packages'
+              path='/products'
             />
           </ul>
         </div>
